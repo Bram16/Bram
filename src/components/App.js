@@ -1,14 +1,11 @@
 import "../components/App.js";
 import "../styles/App.css";
+import logo from "../images/bram.svg";
 
 function App() {
   return (
     <div className="App">
-      <p>
-        Bram
-        <br />
-        Back soon
-      </p>
+      <img src={logo} alt="Bram type" className="logo" />
     </div>
   );
 }
